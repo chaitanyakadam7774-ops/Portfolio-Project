@@ -4,10 +4,10 @@
     width: 250px;
     border: 0.1px solid black;
     border-radius: 20px;
-    /* background-color: white; */
+    
     text-align: center;
     font-size: 25px;
-    background: rgb(240, 235, 235);
+    background: linear-gradient(135deg, #141e30,#243b55);
   backdrop-filter: blur(10px);
   padding: 25px;
   border-radius: 18px;

@@ -9,7 +9,7 @@ import { FaFacebook } from "react-icons/fa6";
 
 const Contact = () => {
   return (
-    <div>
+    <div className='lala'>
      <div className='contact'>
       <h2>Contact Us</h2>
       <form action="">
