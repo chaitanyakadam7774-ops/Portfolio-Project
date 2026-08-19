@@ -1,0 +1,45 @@
+
+.iam{
+    font-size: 60px;
+    color: aliceblue;
+}
+
+.bb{
+    font-size: 20px;
+    color: aliceblue;
+}
+.rr{
+    margin-left: 50px;
+    margin-top: 10px;
+}
+.tt{
+    display: flex;
+    justify-content: space-between;
+}
+.dd{
+    display: flex;
+    height: 250px;
+    border: 1px ;
+    
+   
+    margin-right: 50px;
+    margin-top: 20px;
+}
+.gg{
+    font-size: 18px;
+    color: aliceblue;
+}
+.tata{
+    animation: zoom 1s ease;
+
+}
+@keyframes zoom{
+    from{
+        opacity: 0;
+        transform: scale(0.7);
+    }
+    to{
+        opacity: 1;
+        transform: scale(1);
+    }
+}

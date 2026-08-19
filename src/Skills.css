@@ -1,0 +1,42 @@
+.fri{
+   
+    height: 200px;
+    width: 250px;
+    border: 0.1px solid black;
+    border-radius: 20px;
+    /* background-color: white; */
+    text-align: center;
+    font-size: 25px;
+    background: rgb(240, 235, 235);
+  backdrop-filter: blur(10px);
+  padding: 25px;
+  border-radius: 18px;
+  transition: 0.4s;
+  animation: zoomIn 0.8s ease;
+}
+.lol{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-top: 20px;
+    justify-content: center;
+    align-items: center;
+    animation: zoom 1s ease;
+    margin-top: 50px;
+}
+.fri:hover{
+    transform: scale(1.1);
+   
+   
+}
+ 
+@keyframes zoom{
+    from{
+        opacity: 0;
+        transform: scale(0.7);
+    }
+    to{
+        opacity: 1;
+        transform: scale(1);
+    }
+}
